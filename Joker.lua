@@ -10406,7 +10406,7 @@ local Text = [[
 Dev_Abs(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end
 --     Source JokerTeam     --
-if text == "تعيين امر السورس" and SecondSudo(msg) or text == "تعيين رساله السورس" and SecondSudo(msg) then
+if text == "تعيين رساله السورس" and SecondSudo(msg) or text == "تعيين امر سورس" and SecondSudo(msg) then
 Dev_Abs(msg.chat_id_, msg.id_, 1, "⇠ ارسل كليشة السورس الان " ,  1, "md")
 DevAbs:set(JokerTeam..'Abs:Help9'..msg.sender_user_id_, 'msg')
 return false end
@@ -10419,7 +10419,7 @@ DevAbs:set(JokerTeam..'Abs:Help9', text)
 Dev_Abs(msg.chat_id_, msg.id_, 1, "⇠ تم حفظ الكليشه الجديده" ,  1, "md")
 return false end
 end
-if text == "السورس" or text == "السورس" or text == "السورس" or text == "السورس" then
+if text == "السورس" or text == "السورس" or text == "سورس" or text == "السورس" then
 local Help = DevAbs:get(JokerTeam..'Abs:Help9')
 local Text = [[
 ⇜ لم يتم اضافه كليشه السورس للاضافه ارسل ( تعيين رساله السورس ) 
@@ -10427,7 +10427,7 @@ local Text = [[
 Dev_Abs(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end
 --     Source JokerTeam     --
-if text == "تعيين رساله المطور" and SecondSudo(msg) or text == "تعيين امر المطور" and SecondSudo(msg) then
+if text == "تعيين امر المطور" and SecondSudo(msg) or text == "تعيين رساله المطور" and SecondSudo(msg) then
 Dev_Abs(msg.chat_id_, msg.id_, 1, "⇠ ارسل كليشة المطور الان " ,  1, "md")
 DevAbs:set(JokerTeam..'Abs:Help10'..msg.sender_user_id_, 'msg')
 return false end
@@ -10440,7 +10440,7 @@ DevAbs:set(JokerTeam..'Abs:Help10', text)
 Dev_Abs(msg.chat_id_, msg.id_, 1, "⇠ تم حفظ الكليشه الجديده" ,  1, "md")
 return false end
 end
-if text == "المطور" or text == "المطور" or text == "المطور" or text == "المطور" then
+if text == "المطور" or text == "المطور" or text == "مطور" or text == "المطور" then
 local Help = DevAbs:get(JokerTeam..'Abs:Help10')
 local Text = [[
 ⇜ لم يتم اضافه كليشه المطور للاضافه ارسل ( تعيين رساله المطور ) 
